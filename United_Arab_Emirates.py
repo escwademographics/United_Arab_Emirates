@@ -52,19 +52,19 @@ if submit and email == actual_email and password == actual_password:
         st.image("SUB HEADER.PNG")
     col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
     with col1:
-        st.write("[Population - السكان]()")
+        st.write("[Population - السكان](https://docs.google.com/spreadsheets/d/162joaEM1GmRyIKSixrmHPmnBodQ6mRyJ/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col2:
-        st.write("[Labor - العمالة]()")
+        st.write("[Labor - العمالة](https://docs.google.com/spreadsheets/d/1jky0pf7WdMrDgd6Y1jPkigJt2UzrSRWq/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col3:
-        st.write("[Poverty - الفقر]()")
+        st.write("[Poverty - الفقر](https://docs.google.com/spreadsheets/d/1VEphkxnLr2eMgmTtdrJx0K2qHSqnBVTd/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col4:
-        st.write("[Education - التعليم]()")
+        st.write("[Education - التعليم](https://docs.google.com/spreadsheets/d/1pQV33CTjx3yjIzCiXKAt6lrp7LH-s2mg/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col5:
-        st.write("[Culture - الثقافة]()")
+        st.write("[Culture - الثقافة](https://docs.google.com/spreadsheets/d/1kijCdCxeTmVhRjSvvb5B0SkoER5UMc6D/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col6:
-        st.write("[Health - الصحة]()")
+        st.write("[Health - الصحة](https://docs.google.com/spreadsheets/d/1BKTFTE_0tsH0TGgRkVKKVBoO5vZzxETJ/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")
     with col7:
-        st.write("[Housing Conditions - المساكن]()")   
+        st.write("[Housing Conditions - المساكن](https://docs.google.com/spreadsheets/d/1C8pqycpDD2B8Y1S90bbsy7IwzTK-CDJq/edit?usp=drive_link&ouid=111028980933962818091&rtpof=true&sd=true)")   
     
 
 elif submit and email != actual_email and password != actual_password:
